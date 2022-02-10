@@ -3,7 +3,6 @@ package com.algorithms;
 import com.algorithms.challenges.Anagram;
 import com.algorithms.challenges.MultiplyWithoutTimes;
 import com.algorithms.challenges.RepeatedString;
-import com.algorithms.challenges.DiagonalDifference;
 import com.algorithms.sort.BubbleSort;
 
 public class Main {
@@ -24,11 +23,6 @@ public class Main {
     public static void isAnagram(){
         Anagram anagram = new Anagram();
         anagram.isAnagram("anagram","margana");
-    }
-
-    public static void diagonalDiff(){
-        DiagonalDifference df = new DiagonalDifference();
-        df.diagonalDifference();
     }
 
     public static void bubbleSort(){
